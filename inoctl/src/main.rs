@@ -30,7 +30,7 @@ pub struct Args {
 "Supported commands:
 \r   listen      - Listen for arduino commands                                  [alt: l*]
 \r   query       - Send an ENQ to check arduino's running status                [alt: ENQ]
-\r   recalibrate - Make the arduino to recalibrate its IMU                      [alt: DC2]
+\r   recalibrate - Make the arduino recalibrate its IMU                      [alt: DC2]
 \r   start       - Stop the arduino                                             [alt: DC1]
 \r   stop        - Start the arduino                                            [alt: DC3]
 \r   stop-all    - Stop the arduino and make it send EOT to all listeners       [alt: DC4]
